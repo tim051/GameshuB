@@ -1,0 +1,52 @@
+.bg{
+	background: #c24ad5;
+	background: linear-gradient(106deg,#e6797a,blue);
+	height:100vh;
+	text-align: center;
+}
+body{
+	margin: 0;
+}
+h1{
+	margin: 0;
+	text-align: center;
+	transform: translateY(700%);
+	color: white;
+	font-size: 50px
+}
+.q1{
+	animation: ggg 3s infinite
+}
+.q2{
+	animation: ggg 3s infinite ;
+	animation-delay: 0.5s
+}
+.q3{
+	animation: ggg 3s infinite ;
+	animation-delay: 1s
+}
+.a{
+	transform: translateY(850%);
+	display: inline-block;
+	transition: 1s
+}
+.a:hover{
+	transform: scale(2) translateY(425%);
+	
+}
+span{
+	display: inline-block;
+}
+
+@keyframes ggg {
+	0%{
+	transform: translateY(0%);
+		
+	}
+	50%{
+	transform: translateY(-200%);
+	}
+	100%{
+	transform: translateY(0%);
+	}
+}
